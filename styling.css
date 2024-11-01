@@ -68,59 +68,6 @@ nav a:hover {
     background-color: white;
     color: var(--hover-accent);
 }
-
-
-
-/* Content Containers */
-.container {
-    font-family: var(--font-alt);
-    font-size: 24px;
-}
-
-.paragraph {
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-
-
-
-/* Product, Collection, Features */
-.product-container {
-    display: flex;
-    justify-content: center;
-}
-
-.collection-items,
-.features,
-.contact-info,
-.visit-us,
-.why-choose-us,
-.stay-connected {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    padding: 20px;
-    text-align: center;
-}
-
-.item,
-.product-item,
-.feature {
-    background: var(--primary-bg-color);
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-
-
-
-
-
-
 /* Side Navigation */
 .sidenav {
     height: 100%;
@@ -167,32 +114,7 @@ footer {
 }
 
 /* FLower.html flower div */
-.flower {
-    margin-top: 20px;
-    text-align: center;
-}
 
-.flower-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    margin: 10px;
-}
-
-.flower-item img {
-    border: 10px solid var(--fade-blue);
-    width: 150px;
-    height: auto;
-    margin: 10px;
-    border-radius: 20px;
-}
-
-.flower-item {
-    background-color: var(--fade-red);
-    border-radius: 10px;
-    padding: 10px;
-}
 
 /* Main container styling */
 .search-container {
