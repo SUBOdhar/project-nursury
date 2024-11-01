@@ -301,3 +301,36 @@ footer {
         display: none;
     }
 }
+
+.chat-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    z-index: 1000; /* Ensures the buttons stay on top */
+}
+
+.chat-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.whatsapp {
+    background-color: #25D366;
+    right: 10px; /* Positions it closer to the right corner */
+}
+
+.whatsapp:hover {
+    background-color: #1eae57;
+}
