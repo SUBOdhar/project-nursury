@@ -23,7 +23,7 @@ soils.forEach((item) => {
 
   // Add soil details to the div
   soilDiv.innerHTML = `
-        <img src="${item.pic}" alt="${item.name}">
+        <img src="${item.pic}" alt="${item.name}" loading="lazy">
         <p><strong>${item.name}</strong></p>
         <p>Price 1: ${item.price1}</p>
     `;

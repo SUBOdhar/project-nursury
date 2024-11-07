@@ -190,7 +190,7 @@ flowers.forEach((flower) => {
   flowerDiv.setAttribute("data-flwr-name", flower.name);
   // Add flower details to the div
   flowerDiv.innerHTML = `
-        <img src='${flower.pic}'></img>
+        <img src='${flower.pic}' loading="lazy"></img>
         <p><strong> ${flower.name}</strong></p>
         <p> ${flower.price1}</p>
     `;

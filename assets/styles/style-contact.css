@@ -1,0 +1,191 @@
+/* Contact Section Styling */
+#contact {
+    padding: 40px 20px;
+    background-color: #f2f8f2;
+    /* Light green background */
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 12px rgba(0, 100, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#contact h2 {
+    font-size: 24px;
+    color: #2a4d29;
+    /* Dark green */
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #4d704d;
+    /* Medium green */
+    line-height: 1.5;
+}
+
+.contact-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Contact Item Styling */
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 100, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 100, 0, 0.2);
+    background-color: #e0f2e0;
+    /* Light green on hover */
+}
+
+/* Icon Styling */
+.contact-item i {
+    color: #2d6a2d;
+    /* Darker green */
+    margin-right: 10px;
+    font-size: 22px;
+    transition: color 0.3s ease;
+}
+
+.contact-item:hover i {
+    color: #1b4d1b;
+    /* Darker green on hover */
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #2a4d29;
+}
+
+.contact-item a {
+    color: #2d6a2d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-item:hover a {
+    color: #1b4d1b;
+    text-decoration: underline;
+}
+
+/* Floating Flowers */
+.floating-flowers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Flower Elements with Different Flower Icons */
+.floating-flowers .flower {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    opacity: 0.3;
+    animation: float 10s infinite linear;
+}
+
+/* Each Flower with a Unique Icon */
+.flower1 {
+    top: 10%;
+    left: 20%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2917/2917997.png');
+    /* Purple flower icon */
+    animation-delay: 0s;
+}
+
+.flower2 {
+    top: 50%;
+    left: 80%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2917/2917999.png');
+    /* Yellow flower icon */
+    animation-delay: 2s;
+}
+
+.flower3 {
+    top: 80%;
+    left: 10%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2917/2917995.png');
+    /* Pink flower icon */
+    animation-delay: 4s;
+}
+
+.flower4 {
+    top: 30%;
+    left: 60%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2917/2917988.png');
+    /* Red flower icon */
+    animation-delay: 6s;
+}
+
+.flower5 {
+    top: 70%;
+    left: 30%;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2917/2917993.png');
+    /* White flower icon */
+    animation-delay: 8s;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #contact {
+        padding: 20px;
+    }
+
+    #contact h2 {
+        font-size: 22px;
+    }
+
+    .contact-item p {
+        font-size: 15px;
+    }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

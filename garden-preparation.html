@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styling.css">
+    <link rel="shortcut icon" href="/assets/images/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/styles/style-garden.css">
     <script src="https://kit.fontawesome.com/35d46b7aa8.js" crossorigin="anonymous"></script>
 
     <title>Laliguras NUrsery- Home Gardening Services</title>
@@ -13,24 +15,24 @@
 <body>
     <header>
         <h1>Laliguras Nursery</h1>
-<nav>
-    <ul>
-        <li class="greeting">
-                               <p id="greet">Good Evening</p>
-        </li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="flowers.html">Flowers</a></li>
-        <li><a href="tall-trees.html">Tall Trees</a></li>
-        <li><a href="home-decoration.html">Home Decoration</a></li>
-        <li><a href="garden-preparation.html">Garden Preparation</a></li>
-        <li><a href="toandacc.html">Tools & Accessories</a></li>
-        <li><a href="soandfer.html">Soil & Fertilizers</a></li>
-        <li><a href="contactinfo.html">Contact</a></li>
-        <li class="menu-icon">
-            <i class="fa-solid fa-bars" onclick="openNav()"></i>
-        </li>
-    </ul>
-</nav>
+        <nav>
+            <ul>
+                <li class="greeting">
+                    <p id="greet">Good Evening</p>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flowers.html">Flowers</a></li>
+                <li><a href="tall-trees.html">Tall Trees</a></li>
+                <li><a href="home-decoration.html">Home Decoration</a></li>
+                <li><a href="garden-preparation.html">Garden Preparation</a></li>
+                <li><a href="toandacc.html">Tools & Accessories</a></li>
+                <li><a href="soandfer.html">Soil & Fertilizers</a></li>
+                <li><a href="contactinfo.html">Contact</a></li>
+                <li class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="openNav()"></i>
+                </li>
+            </ul>
+        </nav>
     </header>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -46,22 +48,32 @@
     <section id="garden-preparation">
         <h2>Home Gardening Contract Options</h2>
         <p>Our expert gardeners can help you set up and maintain a beautiful garden. Choose from our packages:</p>
-        <div class="service-container">
-            <div class="service-item">
-                <h3>Basic Garden Setup</h3>
-                <p>Includes soil preparation, basic plant selection, and planting assistance.</p>
-                <p>Price: RS.....</p>
-            </div>
-            <div class="service-item">
-                <h3>Full Garden Care</h3>
-                <p>Complete service with plant selection, design, setup, and monthly maintenance.</p>
-                <p>Price: Rs....</p>
-            </div>
-            <div class="service-item">
-                <h3>Custom Garden Design</h3>
-                <p>Work with our experts to design your dream garden. Price varies based on requirements.</p>
-                <p>Contact us for more details.</p>
-            </div>
+    </section>
+
+    <section class="service-section full-screen" id="basic-setup">
+        <div class="service-content">
+            <i class="fas fa-seedling"></i>
+            <h3>Basic Garden Setup</h3>
+            <p>Includes soil preparation, basic plant selection, and planting assistance.</p>
+            <p class="price">Price: RS.....</p>
+        </div>
+    </section>
+
+    <section class="service-section full-screen" id="full-care">
+        <div class="service-content">
+            <i class="fas fa-leaf"></i>
+            <h3>Full Garden Care</h3>
+            <p>Complete service with plant selection, design, setup, and monthly maintenance.</p>
+            <p class="price">Price: RS....</p>
+        </div>
+    </section>
+
+    <section class="service-section full-screen" id="custom-design">
+        <div class="service-content">
+            <i class="fas fa-tree"></i>
+            <h3>Custom Garden Design</h3>
+            <p>Work with our experts to design your dream garden. Price varies based on requirements.</p>
+            <p>Contact us for more details.</p>
         </div>
     </section>
 

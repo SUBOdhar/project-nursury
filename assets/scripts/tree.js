@@ -18,7 +18,7 @@ tree.forEach((tree) => {
   treeDiv.setAttribute("data-tree-name", tree.name);
   // Add tree details to the div
   treeDiv.innerHTML = `
-        <img src='${tree.pic}'></img>
+        <img src='${tree.pic}' loading="lazy"></img>
         <p><strong> ${tree.name}</strong></p>
         <p> ${tree.price1}</p>
     `;
