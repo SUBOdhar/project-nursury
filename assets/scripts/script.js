@@ -16,3 +16,20 @@ if (hour < 12) {
 } else if (hour >= 18 && hour <= 24) {
   greet.innerHTML = "Good Evening";
 }
+const video = document.getElementById("videoPlayer");
+
+video.addEventListener("click", () => {
+  // Request fullscreen mode
+  if (video.requestFullscreen) {
+    video.requestFullscreen();
+  } else if (video.webkitRequestFullscreen) {
+    // For Safari compatibility
+    video.webkitRequestFullscreen();
+  } else if (video.msRequestFullscreen) {
+    // For IE11 compatibility
+    video.msRequestFullscreen();
+  }
+
+  // Play the video
+  video.play();
+});

@@ -25,61 +25,45 @@ section {
 /* Paragraph Section */
 .paragraph {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
     padding: 1rem;
     margin-bottom: 2rem;
 }
 
-.paragraph img.float-left {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+.paragraph img {
+    width: 380px;
 }
 
+
 .paragraph p {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #555;
     text-align: justify;
     flex: 1;
 }
 
-/* Our Collection Section */
-.our-collection {
+/* Videos Section */
+.videos {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    padding: 2rem;
-    margin-bottom: 2rem;
 }
 
-.our-collection h2 {
+.videos h2 {
     font-size: 2rem;
+    margin-bottom: 15px;
     color: #2d572c;
-    margin-bottom: 1.5rem;
 }
 
-.collection-items {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
-
-.collection-items .item {
-    width: 150px;
-    text-align: center;
-}
-
-.collection-items img {
+.videos video {
     width: 100%;
+    height: auto;
     border-radius: 8px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 0.5rem;
-}
-
-.collection-items p {
-    font-size: 1rem;
-    color: #555;
+    cursor: pointer;
+    /* Indicates clickability */
 }
 
 /* Why Choose Us Section */
@@ -144,9 +128,8 @@ section {
         text-align: center;
     }
 
-    .paragraph img.float-left {
-        width: 100%;
-        margin-bottom: 1rem;
+    .paragraph img {
+        width: 180px;
     }
 
     .collection-items {
