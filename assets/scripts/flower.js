@@ -97,9 +97,9 @@ const flowers = [
     price2: "",
   },
   {
-    name: "",
-    pic: "",
-    price1: "",
+    name: "Test",
+    pic: "/assets/images/flower/39.jpg",
+    price1: "RS 200",
     price2: "",
   },
   {
