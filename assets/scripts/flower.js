@@ -137,8 +137,7 @@ const flowers = [
   {
     name: "Dieffenbacia ",
     pic: "assets/images/flowers/16.jfif",
-    price1: "RS 250",
-    price2: "RS 850",
+    price1: "RS 1050",
   },
   {
     name: "Philodendron",
@@ -150,7 +149,80 @@ const flowers = [
     pic: "assets/images/flowers/17.jfif",
     price1: "RS 750",
   },
+  {
+    name: "Aglonema",
+    pic: "assets/images/flowers/18.jfif",
+    price1: "RS 1050",
+  },
+  {
+    name: "Croton",
+    pic: "assets/images/flowers/20.jfif",
+    price1: "RS 850",
+  },
+  {
+    name: "Silver dracaena",
+    pic: "assets/images/flowers/21.jfif",
+    price1: "RS 1050",
+  },
+   {
+    name: "Peace Lily",
+    pic: "assets/images/flowers/22.jfif",
+    price1: "RS 1250",
+  },
+   {
+    name: "  Philodendron",
+    pic: "assets/images/flowers/23.jfif",
+    price1: "RS 1250",
+  },
+   {
+    name: "  Philodendron",
+    pic: "assets/images/flowers/23.jfif",
+    price1: "RS 1250",
+  },
+   {
+    name: "  Chamaedora",
+    pic: "assets/images/flowers/23.jfif",
+    price1: "RS 1250",
+  },
+   {
+    name: " Snake Plant",
+    pic: "assets/images/flowers/26.jfif",
+    price1: "RS 650",
+  },
+   {
+    name: "Table Palm",
+    pic: "assets/images/flowers/27.jfif",
+    price1: "RS 1500",
+  },
+   {
+    name: "Begambeli",
+    pic: "assets/images/flowers/28.jfif",
+    price1: "RS 1050",
+  },
+   {
+    name: " Marigold",
+    pic: "assets/images/flowers/31.jfif",
+    price1: "RS 40",
+    price2: "RS 250",
+  },
+   {
+    name: "Golden dhupi",
+    pic: "assets/images/flowers/32.jfif",
+    price1: "RS 250",
+    price2: "RS 2500",
+  },
+   {
+    name: " Areca Palm",
+    pic: "assets/images/flowers/33.jfif",
+    price1: "RS 450",
+  },
+  
+  
 
+  
+  
+  
+  
 ];
 
 // Get the container where flowers will be displayed
