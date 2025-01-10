@@ -1,7 +1,7 @@
 const tools = [
   {
     name: "Ceramix pot",
-    pic: "",
+    pic: "/assets/images/flower/1.jfif",
     price1: "Rs 850",
     price2: "",
   },
