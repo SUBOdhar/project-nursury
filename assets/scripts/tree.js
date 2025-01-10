@@ -11,6 +11,12 @@ const tree = [
     price1: "Rs 250",
     price2: "Rs 2500",
   },
+   {
+    name: "Red Machira",
+    pic: "/assets/images/trees/4.jfif",
+    price1: "Rs 250",
+    price2: "Rs 2500",
+  
 ];
 const treeContainer = document.getElementById("tree-container");
 
