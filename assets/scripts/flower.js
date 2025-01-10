@@ -175,13 +175,8 @@ const flowers = [
     price1: "RS 1250",
   },
    {
-    name: "  Philodendron",
-    pic: "assets/images/flowers/23.jfif",
-    price1: "RS 1250",
-  },
-   {
     name: "  Chamaedora",
-    pic: "assets/images/flowers/23.jfif",
+    pic: "assets/images/flowers/25.jfif",
     price1: "RS 1250",
   },
    {
@@ -216,6 +211,118 @@ const flowers = [
     pic: "assets/images/flowers/33.jfif",
     price1: "RS 450",
   },
+   {
+    name: "Yucca",
+    pic: "assets/images/flowers/36.jfif",
+    price1: "RS 1500",
+  },
+   {
+    name: " Hibiscus",
+    pic: "assets/images/flowers/37.jfif",
+    price1: "RS 550",
+  },
+   {
+    name: "  Philodendron",
+    pic: "assets/images/flowers/38.jfif",
+    price1: "RS 3500",
+  },
+   {
+    name: "  geranium",
+    pic: "assets/images/flowers/39.jfif",
+    price1: "RS 1200",
+  },
+   {
+    name: " Nepali Orchid",
+    pic: "assets/images/flowers/40.jfif",
+    price1: "RS 7000",
+  },
+   {
+    name: " Lily flower",
+    pic: "assets/images/flowers/41.jfif",
+    price1: "May Vary",
+  },
+   {
+    name: " Furcaria",
+    pic: "assets/images/flowers/44.jfif",
+    price1: "RS 2000",
+  },
+   {
+    name: " Money plant",
+    pic: "assets/images/flowers/45.jfif",
+    price1: "RS 1500",
+  },
+   {
+    name: " Orchid",
+    pic: "assets/images/flowers/46.jfif",
+    price1: "RS 2050",
+  },
+   {
+    name: "  pilargonium",
+    pic: "assets/images/flowers/48.jfif",
+    price1: "RS 350",
+    price2: "RS 1050',
+  },
+   {
+    name: "  Rose ",
+    pic: "assets/images/flowers/49.jfif",
+    price1: "RS 250",
+  },
+   {
+    name: " Dianthus",
+    pic: "assets/images/flowers/52.jfif",
+    price1: "RS 250",
+  },
+   {
+    name: "  Clevia",
+    pic: "assets/images/flowers/59.jfif",
+    price1: "RS 450",
+  },
+   {
+    name: "  White Geranium",
+    pic: "assets/images/flowers/58.jfif",
+    price1: "RS 250",
+  },
+   {
+    name: "  Caamelia",
+    pic: "assets/images/flowers/60.jfif",
+    price1: "RS 1500",
+  },
+   {
+    name: "  Lily flower",
+    pic: "assets/images/flowers/62.jfif",
+    price1: "RS 550",
+  },
+   {
+    name: "  Cineraria",
+    pic: "assets/images/flowers/71.jfif",
+    price1: "RS 50",
+    price2: "RS 250",
+  },
+   {
+    name: "  Rhapis palm",
+    pic: "assets/images/flowers/82.jfif",
+    price1: "RS 3500",
+  },
+   {
+    name: "  Philodendron",
+    pic: "assets/images/flowers/23.jfif",
+    price1: "RS 1250",
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 
