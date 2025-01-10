@@ -1,8 +1,8 @@
 const tools = [
   {
-    name: "",
+    name: "Ceramix pot",
     pic: "",
-    price1: "",
+    price1: "Rs 850",
     price2: "",
   },
 ];
