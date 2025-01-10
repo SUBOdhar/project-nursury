@@ -1,9 +1,9 @@
 const tree = [
   {
-    name: "",
-    pic: "",
-    price1: "",
-    price2: "",
+    name: "Cycus",
+    pic: "/assets/images/flower/1.jpg",
+    price1: "Rs 500",
+    price2: "Rs 10000",
   },
 ];
 const treeContainer = document.getElementById("tree-container");
