@@ -15,8 +15,38 @@ const tree = [
     name: "Red Machira",
     pic: "/assets/images/trees/4.jfif",
     price1: "Rs 250",
+    price2: "Rs 5000",
+   },
+   {
+    name: "Sumi",
+    pic: "/assets/images/trees/7.jfif",
+    price1: "Rs 450",
     price2: "Rs 2500",
-  
+  },
+   {
+    name: "Phoneix Palm",
+    pic: "/assets/images/trees/10.jfif",
+    price1: "Rs 500",
+    price2: "Rs 5000",
+  },
+   {
+    name: "Dhupi",
+    pic: "/assets/images/trees/12.jfif",
+    price1: "Rs 250",
+    price2: "Rs 2500",
+  },
+   {
+    name: "London dhupi",
+    pic: "/assets/images/trees/15.jfif",
+    price1: "Rs 1200",
+    price2: "Rs 5500",
+  },
+   {
+    name: "Japnese Bamboo",
+    pic: "/assets/images/trees/18.jfif",
+    price1: "Rs 500",
+    price2: "Rs 2500",
+  },
 ];
 const treeContainer = document.getElementById("tree-container");
 
