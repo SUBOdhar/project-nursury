@@ -47,6 +47,12 @@ const tree = [
     price1: "Rs 500",
     price2: "Rs 2500",
   },
+   {
+    name: "Orange tree",
+    pic: "/assets/images/trees/2.jfif",
+    price1: "Rs 250",
+    price2: "Rs 2500",
+  },
 ];
 const treeContainer = document.getElementById("tree-container");
 
