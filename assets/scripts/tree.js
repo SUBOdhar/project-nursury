@@ -5,6 +5,12 @@ const tree = [
     price1: "Rs 500",
     price2: "Rs 10000",
   },
+    {
+    name: "Orange tree",
+    pic: "/assets/images/tree/2.jpg",
+    price1: "Rs 250",
+    price2: "Rs 2500",
+  },
 ];
 const treeContainer = document.getElementById("tree-container");
 
