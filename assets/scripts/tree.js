@@ -1,13 +1,13 @@
 const tree = [
   {
     name: "Cycus",
-    pic: "/assets/images/tree/1.jpg",
+    pic: "/assets/images/trees/1.jpg",
     price1: "Rs 500",
     price2: "Rs 10000",
   },
     {
     name: "Orange tree",
-    pic: "/assets/images/tree/2.jpg",
+    pic: "/assets/images/trees/2.jpg",
     price1: "Rs 250",
     price2: "Rs 2500",
   },
