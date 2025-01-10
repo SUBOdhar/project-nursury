@@ -1,8 +1,14 @@
 const tools = [
   {
     name: "Ceramix pot",
-    pic: "/assets/images/flower/1.jfif",
+    pic: "/assets/images/decoration/1.jfif",
     price1: "Rs 850",
+    price2: "",
+  },
+    {
+    name: "Flower stand ",
+    pic: "/assets/images/decoration/14.jfif",
+    price1: "Rs 4500",
     price2: "",
   },
 ];
