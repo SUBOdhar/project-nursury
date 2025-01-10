@@ -11,6 +11,13 @@ const tools = [
     price1: "Rs 4500",
     price2: "",
   },
+    {
+    name: "Water fountain",
+    pic: "/assets/images/decoration/15.jfif",
+    price1: "Rs 7500",
+    price2: "",
+  },
+  
 ];
 
 // Get the container where tools will be displayed
