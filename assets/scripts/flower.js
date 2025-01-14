@@ -96,6 +96,7 @@ const flowers = [
     price1: "Rs 1850",
     price2: "",
   },
+  /*
   {
     name: "Giraniam",
     pic: "assets/images/flowers/1.jfif",
@@ -312,7 +313,7 @@ const flowers = [
   
   
   
-  
+  */
   
   
   
