@@ -304,31 +304,7 @@ const flowers = [
     pic: "assets/images/flowers/82.jpg",
     price1: "RS 3500",
   },
-   {
-    name: "  Philodendron",
-    pic: "assets/images/flowers/23.jpg",
-    price1: "RS 1250",
-  },
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
+ 
   
   
 ];
