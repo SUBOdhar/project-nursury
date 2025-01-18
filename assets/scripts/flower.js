@@ -96,14 +96,14 @@ const flowers = [
     price1: "Rs 1850",
     price2: "",
   },
-  
+
   {
     name: "Giraniam",
     pic: "assets/images/flowers/1.jpg",
     price1: "RS 250",
     price2: "RS 850",
   },
-    {
+  {
     name: "Lalupate",
     pic: "assets/images/flowers/4.jpg",
     price1: "RS 250",
@@ -165,148 +165,145 @@ const flowers = [
     pic: "assets/images/flowers/21.jpg",
     price1: "RS 1050",
   },
-   {
+  {
     name: "Peace Lily",
-    pic: "assets/images/flowers/22.jpg",
+    pic: "/assets/images/flower/22.jpg",
     price1: "RS 1250",
   },
-   {
+  {
     name: "  Philodendron",
     pic: "assets/images/flowers/23.jpg",
     price1: "RS 1250",
   },
-   {
+  {
     name: "  Chamaedora",
     pic: "assets/images/flowers/25.jpg",
     price1: "RS 1250",
   },
-   {
+  {
     name: " Snake Plant",
     pic: "assets/images/flowers/26.jpg",
     price1: "RS 650",
   },
-   {
+  {
     name: "Table Palm",
     pic: "assets/images/flowers/27.jpg",
     price1: "RS 1500",
   },
-   {
+  {
     name: "Begambeli",
     pic: "assets/images/flowers/28.jpg",
     price1: "RS 1050",
   },
-   {
+  {
     name: " Marigold",
     pic: "assets/images/flowers/31.jpg",
     price1: "RS 40",
     price2: "RS 250",
   },
-   {
+  {
     name: "Golden dhupi",
     pic: "assets/images/flowers/32.jpg",
     price1: "RS 250",
     price2: "RS 2500",
   },
-   {
+  {
     name: " Areca Palm",
     pic: "assets/images/flowers/33.jpg",
     price1: "RS 450",
   },
-   {
+  {
     name: "Yucca",
     pic: "assets/images/flowers/36.jpg",
     price1: "RS 1500",
   },
-   {
+  {
     name: " Hibiscus",
     pic: "assets/images/flowers/37.jpg",
     price1: "RS 550",
   },
-   {
+  {
     name: "  Philodendron",
     pic: "assets/images/flowers/38.jpg",
     price1: "RS 3500",
   },
-   {
+  {
     name: "  geranium",
     pic: "assets/images/flowers/39.jpg",
     price1: "RS 1200",
   },
-   {
+  {
     name: " Nepali Orchid",
     pic: "assets/images/flowers/40.jpg",
     price1: "RS 7000",
   },
-   {
+  {
     name: " Lily flower",
     pic: "assets/images/flowers/41.jpg",
     price1: "May Vary",
   },
-   {
+  {
     name: " Furcaria",
     pic: "assets/images/flowers/44.jpg",
     price1: "RS 2000",
   },
-   {
+  {
     name: " Money plant",
     pic: "assets/images/flowers/45.jpg",
     price1: "RS 1500",
   },
-   {
+  {
     name: " Orchid",
     pic: "assets/images/flowers/46.jpg",
     price1: "RS 2050",
   },
-   {
+  {
     name: "  pilargonium",
     pic: "assets/images/flowers/48.jpg",
     price1: "RS 350",
-    price2: "RS 1050',
+    price2: "RS 1050",
   },
-   {
+  {
     name: "  Rose ",
     pic: "assets/images/flowers/49.jpg",
     price1: "RS 250",
   },
-   {
+  {
     name: " Dianthus",
     pic: "assets/images/flowers/52.jpg",
     price1: "RS 250",
   },
-   {
+  {
     name: "  Clevia",
     pic: "assets/images/flowers/59.jpg",
     price1: "RS 450",
   },
-   {
+  {
     name: "  White Geranium",
     pic: "assets/images/flowers/58.jpg",
     price1: "RS 250",
   },
-   {
+  {
     name: "  Caamelia",
     pic: "assets/images/flowers/60.jpg",
     price1: "RS 1500",
   },
-   {
+  {
     name: "  Lily flower",
     pic: "assets/images/flowers/62.jpg",
     price1: "RS 550",
   },
-   {
+  {
     name: "  Cineraria",
     pic: "assets/images/flowers/71.jpg",
     price1: "RS 50",
     price2: "RS 250",
   },
-   {
+  {
     name: "  Rhapis palm",
     pic: "assets/images/flowers/82.jpg",
     price1: "RS 3500",
   },
- 
-  
-  
 ];
 
 // Get the container where flowers will be displayed
