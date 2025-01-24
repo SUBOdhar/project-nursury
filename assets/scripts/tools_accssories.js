@@ -25,7 +25,7 @@ const toolContainer = document.getElementById("tool-container");
 
 // Generate HTML for each tool and append it to the container
 tools.forEach((item) => {
-  if (item.name === "") {
+  if (!item.name) {
     return; // Skip iteration if name is empty
   }
 
