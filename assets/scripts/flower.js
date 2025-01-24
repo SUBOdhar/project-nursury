@@ -311,7 +311,7 @@ const flowerContainer = document.getElementById("flower-container");
 
 // Generate HTML for each flower and append it to the container
 flowers.forEach((flower) => {
-  if (flower.name === "") {
+  if (!flower.name) {
     return; // Skip iteration if name is empty
   }
 
