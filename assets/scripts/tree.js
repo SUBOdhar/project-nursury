@@ -57,7 +57,7 @@ const tree = [
 const treeContainer = document.getElementById("tree-container");
 
 tree.forEach((tree) => {
-  if (tree.name === "") {
+  if (!tree.name) {
     return; // Skip iteration if name is empty
   }
 
