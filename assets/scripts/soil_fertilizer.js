@@ -13,7 +13,7 @@ const soilContainer = document.getElementById("soil-container");
 
 // Generate HTML for each soil and append it to the container
 soils.forEach((item) => {
-  if (item.name === "") {
+  if (!item.name) {
     return; // Skip iteration if name is empty
   }
 
