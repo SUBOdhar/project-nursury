@@ -324,7 +324,7 @@ flowers.forEach((flower) => {
         <p><strong> ${flower.name}</strong></p>
         <p> ${flower.price1}</p>
     `;
-  if (flower.price2 != "") {
+  if (flower.price2) {
     flowerDiv.innerHTML += `<p>${flower.price2}</p>`;
   }
 
